@@ -1,0 +1,44 @@
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+}
+span
+{
+    padding-right: 55px;
+}
+.container
+{
+    display: grid;
+    grid-template-areas: "a1 a1 a1" "b1 b1 b1";
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.img
+{
+    border-radius: 15px;
+}
+.searchBar
+{
+    display: inline-block;
+    width: 350px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: 1px solid crimson;
+}
+#search
+{
+    padding: 8px;
+    border-radius: 10px;
+}
+#btn1,#btn2
+{
+    color: white;
+    margin-left: 5px;
+    padding:6px 10px;
+    border-radius: 30px;
+    background-color: crimson;
+}
